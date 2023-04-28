@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <style>
+        body{
+            background-image: url(/images/san-antonio-spurs-hd-logo-wallpaper-1285099002.jpg);
+            background-repeat: no-repeat;
+            background-size:contain;
+            height: 100vh;
+        }
+
+        hi{
+            font-size: 3rem;
+        }
+
+        @media screen and (max-width: 576px) {
+            body{
+              background-position: 50% 0%;
+              background-size:cover;
+              height: 100vh;                               
+            }            
+        }
+        </style>
+    </head>
+   
+</body>
+<nav style="z-index: 99995" class="navbar navbar-expand-lg bg-dark position-fixed w-100 ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">MANU</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="me-auto"> </div>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Trayectoria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Títulos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Premios</a>
+          </li>
+             
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+    <section id="home" class="vh-100 w-100 d-flex flex-column justify-content-center px-3 px-xl-5 text-white pb-1">
+        <h1>Manu Ginobili</h1>
+        <h2>El mejor latinoamericano de la historia</h2>
+        
+    </section>
+
+<section id="about" class="bg-white d-flex flex-column align-items-center pt-4 pb-4">
+    <h2> about me</h2>
+    <div class="container ">
+        <div class="row">
+          <div class="col col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <img style="width: 200px" src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/272.png" alt="">
+          </div>
+          <div class="col col-12 col-md-6 d-flex justify-content-center align-items-center ">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur, obcaecati amet debitis rem voluptas iusto vitae. Harum perspiciatis, numquam neque doloribus aspernatur cumque voluptatem, porro qui veritatis magni aliquid?</p>
+          </div>
+          
+        </div>
+      </div>
+</section>
+
+      
+<section class="bg-dark w-50px-3 px-xl-5 bg-danger text-white">
+  <br><br>
+ <div class=" text-center fs-4">PARTICIPA DEL SORTEO POR UNA CENA CON TU IDOLO</div> 
+  <br><br>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Nomre y Apellido</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Nro de Documento</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Soy mayor de edad</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+
+
+  <body>
+
+</html>
