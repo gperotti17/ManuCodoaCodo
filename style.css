@@ -1,0 +1,14 @@
+.tarjetas {
+    display: flex;
+    /*background-color: #f2f2f2;*/
+    justify-content:left; 
+   
+  }
+  
+  .card1, .card2, .card3 {
+    border:2px solid ; /* Agrega un borde sólido de 1 píxel con color #ccc */
+    border-radius: 5px; /* Agrega un borde redondeado de 5 píxeles */
+
+  }
+
+ 
