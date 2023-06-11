@@ -38,18 +38,36 @@ function calcularPago(){
 
 btnResumen.addEventListener('click', (event) => {
     event.preventDefault();
+    comprobacion();
     calcularPago();
 })
 
+btnBorrar.addEventListener ('click', () => formulario.reset());
 
-/*const botonEnviar = document.querySelector('#boton');
+function comprobacion (){
 
-function mostrarAlerta (){
-    alert ('hola mundo')
+nombre = document.querySelector('input[placeholder="nombre"]').value;
+apellido = document.querySelector('input[placeholder="apellido"]').value;
+correo = document.querySelector('input[placeholder="email"]').value;
+
+if (nombre == '' && apellido == '' && correo == ''){
+    alert('Completar campos');
+    return
+}
+else if (apellido == '') {
+    alert('Completar apellido');
+    return
+}
+else if (nombre == '') {
+    alert('Completar nombre');
+    return
+}
+else if (correo == '') {
+    alert('Completar correo');
+    return
 }
 
 
-botonEnviar.addEventListener('click', mostrarAlerta)*/
-
+}
 
 
